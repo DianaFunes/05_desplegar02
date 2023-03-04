@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    background-color: #88b388;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 0px;
+    position: relative;
+}	
+
+
+footer{
+    background-color: #88b388;
+}	
+
+
+/*------------------------------------------------------------------------------*/
+.capa{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-top: 4px;
+    margin-left: 8px;
+    display: inline-block;
+}
+img{
+    width: 15px;
+    height: auto;
+    float: left;
+    margin: 10px;
+
+}
+body{
+    background-color: #ccecff;
+}
+
+.song{
+    width: 700px;
+    height: auto;
+    background-color: #84c5ff;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+   
+}
+#todo{
+
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    margin: 10px;
+    float: right;
+}
+
+p{
+    display: none;
+    transition: height 0.5s ease-out;
+    margin: 10px;
+}
